@@ -6,7 +6,7 @@ AuthorWebSite: https://faiumoni.de/
 WebSite: https://stendhalgame.org/
 SourceCode: https://github.com/arianne/stendhal
 IssueTracker: https://github.com/arianne/stendhal/issues
-Changelog: https://github.com/arianne/stendhal/blob/VERSION_01_RELEASE_46/doc/CHANGES.txt
+Changelog: https://github.com/arianne/stendhal/blob/HEAD/doc/CHANGES.txt
 
 Name: Stendhal Client
 AutoName: Stendhal
@@ -23,12 +23,12 @@ Description: |-
 
 RepoType: git
 Repo: https://github.com/arianne/stendhal.git
-Binaries: https://prdownloads.sourceforge.net/arianne/org.stendhalgame.client-%c.apk?download
+Binaries: https://stendhalgame.org/download/org.stendhalgame.client-%c.apk
 
 Builds:
-  - versionName: '1.46'
-    versionCode: 1046000
-    commit: VERSION_01_RELEASE_46
+  - versionName: 1.45.5
+    versionCode: 1045005
+    commit: 506122aea0be3f28051de9cf9230251f550df3a6
     subdir: app/android
     sudo:
       - apt-get install -y openjdk-17-jdk-headless
@@ -46,6 +46,6 @@ AllowedAPKSigningKeys: 091c5dfaa7e0b6b735244e3d33a5bec9ed6d9b3160a2cc57158ed4ff9
 
 AutoUpdateMode: None
 UpdateCheckMode: HTTP
-UpdateCheckData: https://raw.githubusercontent.com/arianne/stendhal/VERSION_01_RELEASE_46/app/android/client/build.gradle|versionCode\s(\d+)|.|versionName\s"(.*)"
-CurrentVersion: '1.46'
-CurrentVersionCode: 1046000
+UpdateCheckData: https://raw.githubusercontent.com/arianne/stendhal/HEAD/app/android/client/build.gradle|versionCode\s(\d+)|.|versionName\s"(.*)"
+CurrentVersion: 1.45.5
+CurrentVersionCode: 1045005
