@@ -11,7 +11,7 @@ Changelog: https://github.com/arianne/stendhal/blob/HEAD/doc/CHANGES.txt
 AutoName: Stendhal
 
 RepoType: git
-Repo: https://github.com/arianne/stendhal.git
+Repo: https://github.com/AntumDeluge/arianne-stendhal.git
 Binaries: https://prdownloads.sourceforge.net/arianne/org.stendhalgame.client-%v.apk?download
 
 Builds:
@@ -43,7 +43,7 @@ Builds:
 
   - versionName: '1.48'
     versionCode: 1048000
-    commit: VERSION_01_RELEASE_48
+    commit: ae844525518d6de4330f9e1d5988e93efa065bf7
     subdir: app/android
     gradle:
       - yes
